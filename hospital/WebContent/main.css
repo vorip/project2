@@ -1,0 +1,150 @@
+/* 메인화면 상단 바 메뉴 */
+#top {
+	text-align: center;
+	padding-left: 100px;
+}
+
+#topMenu {
+	height: 30px;
+	width: 1800px;
+}
+
+#topMenu ul li {
+	list-style: none;
+	float: left;
+	line-height: 30px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#topMenu li {
+	width: 150px;
+	margin-left: 100px;
+}
+
+#topMenu #menuLink {
+	text-decoration: none;
+	display: block;
+}
+
+#home:hover {
+	src: "home.png";
+}
+/* 홈화면 정보  */
+.btnGroup {
+	float: right;
+	padding-right: 30px;
+}
+
+.life {
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 800px;
+	height: 700px;
+}
+#healthTable{
+	font-style: red;
+}
+/*글쓰기 div*/
+.notice_write {
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 800px;
+}
+/* 폰트 적용  */
+#font_family1 {
+	font-family: dotum;
+}
+
+#font_family2 {
+	font-family: 고딕;
+}
+
+#font_family3 {
+	font-family: gulim;
+}
+
+#font_family4 {
+	font-family: cursive;
+}
+
+#font_family5 {
+	font-family: arial;
+}
+
+#font_family6 {
+	font-family: serif;
+}
+
+#font_size1 {
+	font-size: 9px;
+}
+
+#font_size2 {
+	font-size: 12px;
+}
+
+#font_size3 {
+	font-size: 18px;
+}
+
+#font_size4 {
+	font-size: 24px;
+}
+
+#font_weight1 {
+	font-weight: bold;
+}
+/*로그인 div*/
+#login {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -10%);
+	width: 900px;
+	height: 400px;
+}
+
+#loginForm {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+	height: 200px;
+}
+
+.form-control {
+	margin-right: 200px;
+}
+/*회원가입 div*/
+#signUp {
+	text-align: center;
+}
+#signUpForm{
+	position: absolute;
+	top: 95%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: left;
+	width: 400px;
+	height: 1000px;
+}
+/* my페이지 div*/
+.my{
+	text-align: center;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+/*chart div*/
+.chart {
+	text-align: center;
+	height: 1200px;
+}
